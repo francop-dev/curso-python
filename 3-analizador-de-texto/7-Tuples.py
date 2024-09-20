@@ -16,5 +16,7 @@ print(mi_tuple[2][0])
 
 t= (1,2,3,1)
 
-print(t.count(1))
+print(t.count(1)) # cuenta cuantas veces aparece ese elemento
+
+print(t.index(2)) # nos dice el indice del valor
 

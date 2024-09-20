@@ -42,4 +42,13 @@ print(dic2)
 dic2[2] = 'B'
 print(dic2)
 
+#como conocer todas las claves de un diccionario
+print(dic.keys())
+
+#como conoces los valores de un diccionario
+print(dic.values())
+
+#todos los valores incluidos keys y values
+print(dic.items())
+
 

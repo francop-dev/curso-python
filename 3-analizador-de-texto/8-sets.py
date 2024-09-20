@@ -9,4 +9,7 @@ print(mi_set)
 otro_set = {1,2,3,4}
 print(otro_set)
 
-print(mi_set[0])
+print(mi_set[0]) #no sirve ese metodo
+
+#tampoco podes cambiarlo
+

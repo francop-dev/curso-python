@@ -38,5 +38,5 @@ solonumeros.sort() #ordena todo en forma ascendente, numeros o letras inclusive 
 print(solonumeros)
 
 '''reverse'''
-solonumeros.reverse()
+solonumeros.reverse() #da vuelta los numeros
 print(solonumeros)

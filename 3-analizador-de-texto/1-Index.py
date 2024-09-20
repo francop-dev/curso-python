@@ -5,11 +5,10 @@ mi_texto = 'hola'
 
 
 #si quiero saber en que posicion esta determinado caracter
-
 mi_texto = 'hola'
-
 print (mi_texto.index('o'))
 
-#si quiero saber que caracter esta en una determinada posicion
 
+#si quiero saber que caracter esta en una determinada posicion
 print(mi_texto[3])
+

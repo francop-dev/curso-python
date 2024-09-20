@@ -11,6 +11,6 @@ print(fragmento)
 
 texto1 = 'hoy es un buen dia'
 
-fragmento1 = texto1[2:15:2]
+fragmento1 = texto1[2:15:2] #aca extraemos desde el indice 2 hasta el 15 pero salteando cada 2 indices.
 
 print(fragmento1)
