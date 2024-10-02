@@ -12,4 +12,4 @@ print(f'el numero mayor de lista es {max(lista)} y el menor es {min(lista)}')
 
 nombres = ['juan','pablo','alicia','carlos']
 
-print(min(nombres))
+print(min(nombres)) 

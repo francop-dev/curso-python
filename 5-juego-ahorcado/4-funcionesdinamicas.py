@@ -41,3 +41,19 @@ def cantidad_pares(lista_numeros):
         else:
             pass
     return print(cantidad)
+
+
+lista_numeros = [1,52,90,850,5511]
+
+
+lista_numeros = [12,13,14,15,16,17,18]
+
+def cantidad_pares(lista_numeros):
+    pares = 0
+    for n in lista_numeros:
+        if n % 2 == 0:
+            pares += n
+        else:
+            pass
+    print (pares)
+cantidad_pares(lista_numeros)

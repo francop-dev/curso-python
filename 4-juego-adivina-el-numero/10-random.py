@@ -20,7 +20,7 @@ aleatorio = choice(colores)
 print(aleatorio)
 
 #shuffle es mezclar, puedes mezclar por ejemplo una lista
-
 numeros = list(range(5,50,5))
 shuffle(numeros)
 print(numeros)
+

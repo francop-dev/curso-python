@@ -2,15 +2,10 @@ from random import shuffle
 #lista inicial
 palitos = ['-','--','---','----']
 
-
-
 #mezclar palitos
 def mezclar(lista):
     shuffle(lista)
     return lista
-
-
-
 
 #pedirle al usuario que elija
 def probar_suerte():
@@ -19,9 +14,6 @@ def probar_suerte():
     while intento not in ['1','2','3','4']:
         intento = input('elige un numero del 1 al 4: ')
     return int(intento)
-
-
-
 
 #comprobar intento
 def chequear_intento (lista,intento):
@@ -36,3 +28,4 @@ def chequear_intento (lista,intento):
 palitos_mezclados = mezclar(palitos)
 seleccion = probar_suerte()
 chequear_intento(palitos_mezclados,seleccion)
+

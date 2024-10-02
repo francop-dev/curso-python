@@ -13,6 +13,4 @@ mi_bool = 12 >= 23 # 12 es mayor o igual a 23?
 print(mi_bool) # va a dar falso
 
 mi_bool = 12 != 12 # 12 es distinto a 12?
-print(mi_bool) #va a dar falso
-
-
+print(mi_bool) #va a dar falsoo
